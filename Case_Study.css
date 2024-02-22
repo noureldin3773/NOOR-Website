@@ -1,0 +1,93 @@
+/* styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Alice:wght@200;300;400;500;600;700;800;900&display=swap");
+.case_study_page {
+  background-color: #050115;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  margin: 80px;
+  margin-top: 160px;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .case_study_page {
+    margin: 40px;
+    margin-top: 160px;
+  }
+}
+
+/* Styles for images */
+img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  /* border-radius: 15px; */
+}
+
+/* Styles for headings */
+h1 {
+  font-family: "Alice";
+  font-size: 72px;
+  text-align: center;
+  color: #f7941e;
+  margin: 24px;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+    margin: 12px;
+  }
+}
+
+.case_study_sections {
+  width: 100;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px; /* Adjust the grid gap as needed */
+}
+
+.next_case_study {
+  justify-content: center;
+  margin: 20px; /* Adjust the margin as needed */
+}
+
+.next_case_study h2 {
+  font-family: "Alice";
+  font-size: 32px; /* Adjust the font size for smaller screens */
+  text-align: center;
+  color: #fff;
+  margin: 12px; /* Adjust the margin as needed */
+}
+
+.next_case_study img {
+  background-color: transparent;
+  max-width: 100%; /* Ensure images don't exceed their container */
+  height: auto; /* Maintain aspect ratio */
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  transition: border-color 0.1s ease-in-out, box-shadow 0.2s ease-in-out,
+    background-color 0.3s ease-in-out;
+}
+
+.next_case_study img:hover {
+  border: 1px solid #74f7ff;
+  box-shadow: 0 0 10px #0d8ba6;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .next_case_study h2 {
+    font-size: 24px;
+    margin: 8px;
+  }
+}
+
+/* Adjustments for larger screens */
+@media screen and (min-width: 1200px) {
+  .next_case_study {
+    margin: 40px;
+  }
+}

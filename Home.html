@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="Favicon/Me.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Alice' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-GLhlTQ8iSVP7U0LA97uOvHctZ9zK3+KxGiFJsLWI5PbN+gS8eW5tZ92dR0JKlXyb" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.6/prefixfree.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <title>Noor Eldin</title>
+</head>
+<body>
+  <script>AOS.init();</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <nav class="floating-navbar">
+            <div class="menu-icon">
+                <i class="fa fa-bars"></i>
+            </div>
+            <ul class="navbar-list">
+                <li><a href="#case-study">Case Study</a></li>
+                <li><a href="#My-Projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#about">About</a></li>
+                <li><button class="glow-on-hover-li" onclick="scrollToSection('Talk')">Let's Talk</button></li>
+            </ul>
+        </nav>
+<section id="section1">
+    <div class="iframe-container">
+      <!-- <iframe class="responsive-iframe" src='https://my.spline.design/untitled-dea48aede1af6d365af53a761d96932e/' frameborder='0' allowfullscreen></iframe> -->
+      <div class="responsive-iframe">
+          <script class="responsive-iframe" type="module" src="https://unpkg.com/@splinetool/viewer@1.0.53/build/spline-viewer.js"></script>
+          <spline-viewer loading-anim-type="none" url="https://prod.spline.design/qW7SRw0IiQOIvp4Y/scene.splinecode"></spline-viewer>
+      </div>
+    </div>
+    <div id="scrollButton" class="scroll-button" onclick="scrollToNextSection()">
+        <div class="container">
+        		<div class="mouse"></div>
+        </div>
+    </div>
+</section>
+<section id="case-study" class="case-study">
+<h2>case study</h2>
+<div class="cards-container">
+<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+<!-- Case study 1 -->
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="MMC.svg" alt="Avatar" style="width: 100%; height: 100%; border-radius: 15px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Meow Medical Center</h3>
+      <p>A complete website redesign for seamless navigation and enhanced visual appeal. Explore the new era of web interaction."</p>
+      <button class="button-gray">Live</button>
+      <button class="glow-on-hover" type="button" onclick="redirectToMMC()">Case Study</button>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Case study 2 -->
+<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+  <div class="flip-card">
+    <div class="ribbon-2">Live</div>
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="OrangeDepo.svg" alt="Avatar" style="width: 100%; height: 100%; border-radius: 15px;">
+      </div>
+      <div class="flip-card-back">
+        <h3>Orange Depo</h3>
+        <p>A complete website redesign for seamless navigation and enhanced visual appeal. Explore the new era of web interaction</p>
+        <a href="https://orangedepo.com/" target="_blank">
+          <button class="glow-on-hover" type="button">Live</button>
+        </a>
+        <button class="glow-on-hover" type="button" onclick="redirectToOrangeDepo()">Case Study</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Case study 3 -->
+<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+  <div class="flip-card">
+    <div class="ribbon-2">Live</div>
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="HexaDev.svg" alt="Avatar" style="width: 100%; height: 100%; border-radius: 15px;">
+      </div>
+      <div class="flip-card-back">
+        <h3>Hexa Dev</h3>
+        <p>A complete website redesign for seamless navigation and enhanced visual appeal. Explore the new era of web interaction</p>
+        <a href="https://hexadev.tech/" target="_blank">
+          <button class="glow-on-hover" type="button">Live</button>
+        </a>
+        <button class="glow-on-hover" type="button" onclick="redirectToHexaDev()">Case Study</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Case study 4 -->
+<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+<div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="Beethon.svg" alt="Avatar" style="width: 100%; height: 100%; border-radius: 15px;">
+      </div>
+      <div class="flip-card-back">
+        <h3>Beethon</h3>
+        <p>A complete website redesign for seamless navigation and enhanced visual appeal. Explore the new era of web interaction."</p>
+        <button class="button-gray">Live</button>
+        <button class="glow-on-hover" type="button" onclick="redirectToBeethon()">Case Study</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Case study 5 -->
+<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="Tmm.svg" alt="Avatar" style="width: 100%; height: 100%; border-radius: 15px;">
+      </div>
+      <div class="flip-card-back">
+        <h3>TMM</h3>
+        <p>A complete website redesign for seamless navigation and enhanced visual appeal. Explore the new era of web interaction."</p>
+        <button class="button-gray">Live</button>
+        <button class="glow-on-hover" type="button" onclick="redirectToTmm()">Case Study</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Case study 6 -->
+<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="Cave.svg" alt="Avatar" style="width: 100%; height: 100%; border-radius: 15px;">
+      </div>
+      <div class="flip-card-back">
+        <h3>Cave</h3>
+        <p>A complete website redesign for seamless navigation and enhanced visual appeal. Explore the new era of web interaction."</p>
+        <button class="button-gray">Live</button>
+        <button class="glow-on-hover" type="button" onclick="redirectToCave()">Case Study</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="My-Projects" class="my-projects">
+  <h2 class="pro-h2" id="typing-heading" style="height: 24px;"></h2>
+  <div class="pro-div">
+    <!-- <img class="arrows" src="l-arrow.svg" alt="" id="leftArrow"> -->
+  <div class="card-projects">
+    <video src="ADF.mp4" class="card-projects" loop="" autoplay="" muted="" ></video>
+  </div>
+    <!-- <img class="arrows" src="r-arrow.svg" alt="" id="rightArrow"> -->
+  </div>
+  <div div data-aos="fade-right"
+     data-aos-delay="400">
+  <img src="pro-1.svg" style="margin-left: 5%;">
+  </div>
+  <div div data-aos="fade-left"
+     data-aos-delay="800">
+  <img src="pro-2.svg" style="margin-left: 45%;">
+  </div>
+  <div div data-aos="zoom-out"
+     data-aos-delay="800">
+     <div class="pro-div">
+      <img class="arrows" src="l-arrow.svg" alt="" id="leftArrow">
+        <div class="card-projects">
+          <video class="card-projects" src="Siraj.mp4" id="centerMedia" style="max-height: 1080px; box-shadow: 10px 10px 30px 10px rgba(218, 169, 44, 0.08), -10px -10px 30px 10px rgba(218, 169, 44, 0.08);" loop="" autoplay="" muted="" ></video>
+          <img class="card-projects" alt="" id="centerImage" style="margin: 0 auto;">
+          <!-- <div style="padding-bottom: 80px;"></div> -->
+        </div>
+      <img class="arrows" src="r-arrow.svg" alt="" id="rightArrow">
+    </div>
+  </div>
+</section>
+
+<div data-aos="fade-right"
+     data-aos-delay="400">
+<section id="services" class="Services">
+  <h2>Services</h2>
+  <div class="grid">
+  <div class="card">
+      <span class="icon"><img class="icon" src="UI.svg" alt="" style="width:56px;"></span>
+      <h3>UI Design</h3>
+      <p>Specializing in modern UI design, <br>I create seamless digital interactions for optimal user engagement</p>
+      <div class="shine"></div>
+      <div class="background">
+        <div class="tiles">
+          <div class="tile tile-1"></div>
+          <div class="tile tile-2"></div>
+          <div class="tile tile-3"></div>
+          <div class="tile tile-4"></div>
+
+          <div class="tile tile-5"></div>
+          <div class="tile tile-6"></div>
+          <div class="tile tile-7"></div>
+          <div class="tile tile-8"></div>
+
+          <div class="tile tile-9"></div>
+          <div class="tile tile-10"></div>
+        </div>
+
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+      </div>
+  </div>
+  <div class="card">
+    <span class="icon"><img class="icon" src="UX.svg" alt="" style="width:56px;"></span>
+    <h3>UX Design</h3>
+    <p>Crafting seamless and enjoyable user experiences by putting users at the heart of every design decision</p>
+    <div class="shine"></div>
+    <div class="background">
+      <div class="tiles">
+        <div class="tile tile-1"></div>
+        <div class="tile tile-2"></div>
+        <div class="tile tile-3"></div>
+        <div class="tile tile-4"></div>
+
+        <div class="tile tile-5"></div>
+        <div class="tile tile-6"></div>
+        <div class="tile tile-7"></div>
+        <div class="tile tile-8"></div>
+
+        <div class="tile tile-9"></div>
+        <div class="tile tile-10"></div>
+      </div>
+
+      <div class="line line-1"></div>
+      <div class="line line-2"></div>
+      <div class="line line-3"></div>
+    </div>
+  </div>
+  <div class="card">
+    <span class="icon"><img class="icon" src="fe.svg" alt="" style="width:56px;"></span>
+    <h3>Web development</h3>
+    <p>From concept to code, my web development services are focused on delivering seamless and effective digital platforms</p>
+    <div class="shine"></div>
+    <div class="background">
+      <div class="tiles">
+        <div class="tile tile-1"></div>
+        <div class="tile tile-2"></div>
+        <div class="tile tile-3"></div>
+        <div class="tile tile-4"></div>
+
+        <div class="tile tile-5"></div>
+        <div class="tile tile-6"></div>
+        <div class="tile tile-7"></div>
+        <div class="tile tile-8"></div>
+
+        <div class="tile tile-9"></div>
+        <div class="tile tile-10"></div>
+      </div>
+
+      <div class="line line-1"></div>
+      <div class="line line-2"></div>
+      <div class="line line-3"></div>
+    </div>
+  </div>
+  <div class="card">
+    <span class="icon"><img class="icon" src="logo.svg" alt="" style="width:56px;"></span>
+    <h3>Logo Design</h3>
+    <p>Crafting distinctive logos that capture the essence of your brand identity</p>
+    <div class="shine"></div>
+    <div class="background">
+      <div class="tiles">
+        <div class="tile tile-1"></div>
+        <div class="tile tile-2"></div>
+        <div class="tile tile-3"></div>
+        <div class="tile tile-4"></div>
+
+        <div class="tile tile-5"></div>
+        <div class="tile tile-6"></div>
+        <div class="tile tile-7"></div>
+        <div class="tile tile-8"></div>
+
+        <div class="tile tile-9"></div>
+        <div class="tile tile-10"></div>
+      </div>
+
+      <div class="line line-1"></div>
+      <div class="line line-2"></div>
+      <div class="line line-3"></div>
+    </div>
+  </div>
+  <div class="card">
+    <span class="icon"><img class="icon" src="BI.svg" alt="" style="width:56px;"></span>
+    <h3>Brand Identity</h3>
+    <p>From logo design to a complete brand package, my services are dedicated to building a strong and consistent brand identity for your business</p>
+    <div class="shine"></div>
+    <div class="background">
+      <div class="tiles">
+        <div class="tile tile-1"></div>
+        <div class="tile tile-2"></div>
+        <div class="tile tile-3"></div>
+        <div class="tile tile-4"></div>
+
+        <div class="tile tile-5"></div>
+        <div class="tile tile-6"></div>
+        <div class="tile tile-7"></div>
+        <div class="tile tile-8"></div>
+
+        <div class="tile tile-9"></div>
+        <div class="tile tile-10"></div>
+      </div>
+
+      <div class="line line-1"></div>
+      <div class="line line-2"></div>
+      <div class="line line-3"></div>
+    </div>
+  </div>
+</div>
+</section>
+</div>
+
+<section id="reviews" class="reviews">
+  <div data-aos="fade-up" data-aos-delay="200">
+      <h2 class="words">Hear It from my clients</h2>
+      <div class="gtco-testimonials">
+  <div class="owl-carousel owl-carousel1 owl-theme">
+    <div>
+      <div class="card-rev"><img class="card-rev-img-top" src="Man.svg" alt="">
+        <div class="card-body">
+          <h5 id="Rating" class="rating">Rashad<br/> <span> Askly </span><br/></h5>
+          <p class="card-text">“ It was really a pleasure doing business with Nour. On the personal level, he is a very kind and understanding person. On the professional level, his work is exceptional and he is very patient and willing to make modifications in the design when requested. I will definitely request his services again in the future. Thank you very much Nour, it was a pleasure!! ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card-rev"><img class="card-rev-img-top" src="woman.svg" alt="">
+        <div class="card-body">
+          <h5 id="Rating" class="rating">Miad<br /> <span> Software Engineer </span><br/></h5>
+          <p class="card-text">“لحد يفكر أبدا يروح عند غيره مبدع وثقه لآخر حد ومتفهم جدا الله يوفقه” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card-rev"><img class="card-rev-img-top" src="Man.svg" alt="">
+        <div class="card-body">
+          <h5 id="Rating" class="rating">Abd Elbadia<br /><span> Hexa Development Tech </span><br/></h5>
+          <p class="card-text">“ عمل ممتاز وخدمة مميزة. شكراً جزيلاً لكم ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card-rev"><img class="card-rev-img-top" src="Man.svg" alt="">
+        <div class="card-body">
+          <h5 id="Rating" class="rating">Yasser<br /><span> Tmm </span><br/></h5>
+          <p class="card-text">“ اذا كنتم تبحثون عن مصمم فلن يفهمكم سوا الاخ نور رجل ذو خبره وكفائه ويستاهل كل خير ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card-rev"><img class="card-rev-img-top" src="Man.svg" alt="">
+        <div class="card-body">
+          <h5 id="Rating" class="rating">Mostafa<br/><span> Game Developer </span><br/></h5>
+          <p class="card-text">“ الاخ نور الدين تعاملت معها اكثر من مره ورح يكون تعامل اخر انصح الجميع به يستحق مبدع ومتفهم جدا مشكور اخي نور ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card-rev"><img class="card-rev-img-top" src="woman.svg" alt="">
+        <div class="card-body">
+          <h5 id="Rating" class="rating">Arij<br/><span> Software Engineer </span><br/></h5>
+          <p class="card-text">“ محترم جدا ما قصر معي ابدا قبل بكل تعديل طلبته منه الله يعطيك العافية يا نور الدين ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card-rev"><img class="card-rev-img-top" src="Man.svg" alt="">
+        <div class="card-body">
+          <h5 id="Rating" class="rating">Mohamed<br/><span> Lavament </span><br/></h5>
+          <p class="card-text">“ ماشكر لك و لفنك المبدع استاذ نور الدين لتفهمك و اخلاقك الطيبه و سرعت الرد. عمل جميل و متقن و محترف. ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card-rev"><img class="card-rev-img-top" src="Man.svg" alt="">
+        <div class="card-body">
+          <h5 id="Rating" class="rating">Ahmed<br/><span> Software Engineer </span><br/></h5>
+          <p class="card-text">“ محترف متعاون سريع بالتنفيذ بالتوفيق انصح بالتعامل معه ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card-rev"><img class="card-rev-img-top" src="Man.svg" alt="">
+        <div class="card-body">
+          <h5 id="Rating" class="rating">Mohamed<br/><span> orangedepo </span><br/></h5>
+          <p class="card-text">“ شخص متعاون جدا وطيب انصح بالتعامل معه شغل محترف ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card-rev"><img class="card-rev-img-top" src="woman.svg" alt="">
+        <div class="card-body">
+          <h5 id="Rating" class="rating">Norah<br/><span> Beethon </span><br/></h5>
+          <p class="card-text">“ ممتاز جدا ومتعاون بالتعديلات ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card-rev"><img class="card-rev-img-top" src="Man.svg" alt="">
+        <div class="card-body">
+          <h5 id="Rating" class="rating">Kammal<br/><span> Real Estate </span><br/></h5>
+          <p class="card-text">“ بكل امانة ( العمل احترافي + السرعه + التعامل + المساعدة في التحسين .... الخ ) بكل امانه الكلام لا يوفيك . شكرآ لك وشكرا على المنصه التي اجمعتني بشخص بهذه الاحترافيه ... انصح التعامل وبشششششدة وبثقه . كل التوفيق لك   ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card-rev"><img class="card-rev-img-top" src="woman.svg" alt="">
+        <div class="card-body">
+          <h5 id="Rating" class="rating">Ather<br/><span>AD Foundation</span><br/></h5>
+          <p class="card-text">“ مبدع وفنان ورائع جدا ،، صبور ويفهم النقاط بسرعه بمعنى فاهم بشغلة بشكل مريح، لا تتردد بشراء الخدمة . ” </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div data-aos="zoom-out"
+data-aos-delay="400">
+<button class="glow-on-hover-li" style="width: 20%;" onclick="scrollToSection('Talk')">Support my growth</button>
+</div>
+</section>
+
+<section id="about">
+  <h2>About me</h2>
+  <div class="about-grid">
+    <div data-aos="fade-right"
+         data-aos-delay="200">
+    <div class="text-section">
+      <div class="tabbed">
+        <input type="radio" name="tabs" id="tab-nav-1" checked>
+        <label for="tab-nav-1">Details</label>
+        <input type="radio" name="tabs" id="tab-nav-2">
+        <label for="tab-nav-2">Experiences</label>
+        <input type="radio" name="tabs" id="tab-nav-3">
+        <label for="tab-nav-3">Education</label>
+        <input type="radio" name="tabs" id="tab-nav-4">
+        <label for="tab-nav-4">Skills</label>
+        <div class="tabs">
+          <div><p style="color:white;">Details about me</p></div>
+          <div>
+            <div class="tabs-div" style="margin: 0px;">
+            <h3>Rowad (UX/UI Designer)</h3><span>Feb 2023- Feb 2024</span></div>
+            <p>Creating user-centered designs by understanding business requirements, and user feedback
+            Creating user flows, wireframes, prototypes, and mockups
+            Translating requirements into style guides, design systems, design patterns, and attractive user interfaces
+            Designing UI elements such as input controls, navigational components, and informational components
+            Collaborating effectively with the product, engineering, and management team
+            </p>
+            <div class="tabs-div"><h3>Khamsat (Freelancer UX/UI Designer)	</h3><span>Mar 2022- Feb 2024</span></div>
+          </div>
+          <div>
+            <div class="tabs-div"><h3>UX/UI Courses Interaction Design Foundation</h3><span>jun 2023 – in progress</span></div>
+            <div class="tabs-div"><h3>Google UX Design Professional Certificate</h3><span>Oct 2021 - Oct 2022</span></div>
+            <div class="tabs-div"><h3>UX Design Specialization at Edrak</h3><span>Oct 2022 - Dec 2022</span></div>
+            <div class="tabs-div"><h3>Advanced UX Design Nano Degree at Udacity	</h3><span>Aug 2022 - Oct 2022</span></div>
+            <div class="tabs-div"><h3>Web Development Challenger at Udacity</h3><span>May 2022 - Jul 2022</span></div>
+            <div class="tabs-div" style="margin-bottom: 0px;"><h3>Graphic Design Specialization by CalArts</h3><span>Oct 2021 - Mar 2022</span></div>
+          </div>
+          <div class="tabs">
+            <h3 style="text-align: center;">Tools I use</h3>
+            <img src="Figma.svg">
+            <img src="GPT.svg">
+            <img src="MJ.svg"><br>
+            <img src="HTML.svg">
+            <img src="CSS.svg">
+            <img src="WP.svg"><br>
+            <img src="XD.svg">
+            <img src="AI.svg">
+            <img src="PS.svg">
+            <img src="AE.svg">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div div data-aos="fade-left"
+     data-aos-delay="200">
+    <div class="image-section">
+      <div class="image-container"><img src="me.png" alt="Your Image">
+        <button id="downloadButton" class="glow-on-hover-li" target="_blank">Download CV</button>
+      </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<div data-aos="fade-down">
+  <div class="marquee-text">Certified From<img src="quality.svg" alt="image"></div>
+</div>
+<div data-aos="fade-up" data-aos-delay="100">
+<div class="marquee">
+  <ul class="marquee-content">
+    <li><i><a href="https://www.interaction-design.org/members/nour-eldin-abbas" target="_blank"> <img src="IDF.svg"> </a></i></li>
+    <li><i><a href="https://coursera.org/share/cbd3c3509660392f7882d135ac957e6c" target="_blank"> <img src="coursera.svg"> </a> </i></li>
+    <li><i> <a href="https://coursera.org/share/7f407b3246368ffc4e68022523ba5d4a" target="_blank"> <img src="google.svg"></a> </i></li>
+    <li><i> <a href="https://coursera.org/share/7275c53e88212f4c17f211963c6817d9" target="_blank"> <img src="calarts.svg"> </i></a></li>
+    <li><i> <a href="https://graduation.udacity.com/confirm/APPJV3ZZ" target="_blank"> <img src="Udacity.svg"> </a> </i></li>
+    <li><i> <a href="https://www.udemy.com/certificate/UC-d257d0f7-a83a-4fad-8a6a-a673d2cd2e4b/" target="_blank"> <img src="Udemy.svg"> </a> </i></li>
+    <li><i> <a href="https://coursera.org/share/2c851f138f2bc1565cfd50b6871f299f"target="_blank"> <img src="UOV.svg"> </a> </i></li>
+    <li><i> <a href="https://coursera.org/share/0a9f9e5307326f849a4e6d2199eff0e9" target="_blank"> <img src="UC.svg"> </a> </i></li>
+    <li><i> <a href="https://drive.google.com/file/d/1Mng_xCnlNek4GRyjJoNxnAn_xSt_T1c9/view?usp=sharing" target="_blank"> <img src="Edrak.svg"> </a> </i></li>
+    <li><i> <a href="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/c06b4e6b-7a9a-4a65-a9c2-f91ff3d0bbce.pdf" target="_blank"> <img src="FWD.svg"> </a> </i></li>
+  </ul>
+</div>
+</div>
+
+<section id="Talk" class="Lets-Talk">
+  <section class="background-section">
+      <section id="Talk" class="Talk">
+      <div class="column">
+        <div class="talk-field">
+          <h5>Let's talk</h5>
+          <!-- this is the online fourm -->
+          <!-- First fourm  --> <!--fourm carry-->
+          <form class="talk-field-input" action="https://formcarry.com/s/F_hsVuVRB4H" method="POST" enctype="multipart/form-data" target="_blank">
+          <div class="fourm">
+              <input type="text" name="Name" placeholder="Name" required>
+              <input type="email" name="Email" placeholder="Email" required>
+              <input type="tel" name="PhoneNumber" placeholder="Phone Number" pattern="[0-9]{7,20}" required>
+              <textarea class="textarea" name="Message" rows="8" cols="80" placeholder="Your messages are always appreciated!" required></textarea>
+              <button class="glow-on-hover-li" type="submit">Send Email</button>
+          </div>
+        </form>
+          <!-- Second Fourm --> <!--fourm spree-->
+          <!-- modify this form HTML and place wherever you want your form -->
+          <!-- <form class="talk-field-input" action="https://formspree.io/f/mrgnpvay" method="POST" target="_blank">
+          <div class="fourm">
+              <input type="text" name="Name" placeholder="Name" required>
+              <input type="email" name="Email" placeholder="Email" required>
+              <input type="tel" name="PhoneNumber" placeholder="Phone Number" pattern="[0-9]{7,20}" required>
+              <textarea class="textarea" name="Message" rows="8" cols="80" placeholder="Your messages are always appreciated!" required></textarea>
+              <button class="glow-on-hover-li" type="submit">Send Email</button>
+          </div>
+        </form> -->
+        <!-- Third fourm -->
+        <!-- <form class="talk-field-input" action="https://getform.io/f/603ade26-1409-4e45-b8a7-041655a32b0e" method="POST" target="_blank">
+          <div class="fourm">
+              <input type="text" name="Name" placeholder="Name" required>
+              <input type="email" name="Email" placeholder="Email" required>
+              <input type="tel" name="PhoneNumber" placeholder="Phone Number" pattern="[0-9]{7,20}" required>
+              <textarea class="textarea" name="Message" rows="8" cols="80" placeholder="Your messages are always appreciated!" required></textarea>
+              <button class="glow-on-hover-li" type="submit">Send Email</button>
+          </div>
+        </form> -->
+        </div>
+      </div>
+      <div class="column"></div>
+    </section>
+  </section>
+</section>
+
+<footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <!-- <div data-aos="zoom-out"> -->
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="tel:+201153614743"><img src="phone.svg" alt="phone number"></a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="mailto:noureldin.ab98@gmail.com"><img src="email.svg" alt="email"></a></li>
+      <li class="social-icon__item"><a class="social-icon__link" target="_blank" href="https://www.linkedin.com/in/nour-eldin-abbas-526685145"><img src="linkedin.SVG" alt="linkedin"></a></li>
+      <li class="social-icon__item"><a class="social-icon__link" target="_blank" href="https://wa.me/201153614743"><img src="whatsapp.SVG" alt="whatsapp"></a></li>
+      <li class="social-icon__item"><a class="social-icon__link" target="_blank" href="https://khamsat.com/user/noureldin98"><img src="khamsat.svg" alt="image"></a></li>
+    </ul>
+    <!-- </div> -->
+    <p>&copy;2024 Nour Eldin | All Rights Reserved</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
