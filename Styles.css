@@ -1846,9 +1846,8 @@ h5 {
 }
 @media only screen and (max-width: 720px) {
   .glow-on-hover-li {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
-    width: 100%;
   }
 }
 @media only screen and (max-width: 720px) {
@@ -2118,7 +2117,7 @@ h5 {
       1fr
     ); /* Adjust to single column layout for smaller screens */
     /* margin: 16px; */
-    height: 220vh;
+    height: 170vh;
   }
   .card-projects video {
     width: 100%;
@@ -2198,7 +2197,7 @@ h5 {
 @media only screen and (max-width: 430px) {
   .text-section {
     gap: 20px; /* Reduce gap between flex items for smaller screens */
-    margin-bottom: 420px;
+    margin-bottom: 240px;
   }
   .image-container {
     gap: 20px; /* Reduce gap between flex items for smaller screens */
@@ -2293,7 +2292,7 @@ h5 {
   .tabbed {
     width: 100%; /* Adjust width to fit the container */
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 15px;
   }
   .tabs {
     width: 85%;
