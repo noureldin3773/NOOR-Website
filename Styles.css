@@ -1829,7 +1829,7 @@ h5 {
     background-color: transparent;
     width: 100%; /* Use relative units for responsiveness */
     max-width: 528px; /* Keep maximum width for larger screens */
-    height: 60vh; /* Allow cards to resize proportionally */
+    height: 70vh; /* Allow cards to resize proportionally */
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 15px;
     perspective: 1000px; /* Remove if you don't want the 3D effect */
@@ -2197,7 +2197,7 @@ h5 {
 @media only screen and (max-width: 425px) {
   .text-section {
     gap: 20px; /* Reduce gap between flex items for smaller screens */
-    margin-bottom: 240px;
+    margin-bottom: 360px;
   }
   .image-container {
     gap: 20px; /* Reduce gap between flex items for smaller screens */
