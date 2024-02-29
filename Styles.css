@@ -2117,7 +2117,7 @@ h5 {
       1fr
     ); /* Adjust to single column layout for smaller screens */
     /* margin: 16px; */
-    height: 180vh;
+    height: 200vh;
   }
   .card-projects video {
     width: 100%;
