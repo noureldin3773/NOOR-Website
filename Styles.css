@@ -1844,6 +1844,12 @@ h5 {
     font-weight: bold;
   }
 }
+@media only screen and (max-width: 820px) {
+  .glow-on-hover-li {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
 @media only screen and (max-width: 720px) {
   .glow-on-hover-li {
     font-size: 14px;
