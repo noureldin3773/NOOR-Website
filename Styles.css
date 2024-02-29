@@ -2110,14 +2110,14 @@ h5 {
     height: 150vh;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 430px) {
   .about-grid {
     grid-template-columns: repeat(
       1,
       1fr
     ); /* Adjust to single column layout for smaller screens */
     /* margin: 16px; */
-    height: 200vh;
+    height: 240vh;
   }
   .card-projects video {
     width: 100%;
@@ -2194,10 +2194,10 @@ h5 {
     margin: 0 auto;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 430px) {
   .text-section {
     gap: 20px; /* Reduce gap between flex items for smaller screens */
-    margin-bottom: 360px;
+    margin-bottom: 480px;
   }
   .image-container {
     gap: 20px; /* Reduce gap between flex items for smaller screens */
