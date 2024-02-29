@@ -545,7 +545,17 @@ data-aos-delay="400">
           <h5>Let's talk</h5>
           <!-- this is the online fourm -->
           <!-- First fourm  --> <!--fourm carry-->
-          <form class="talk-field-input" action="https://formcarry.com/s/F_hsVuVRB4H" method="POST" enctype="multipart/form-data" target="_blank">
+          <!-- <form class="talk-field-input" action="https://formcarry.com/s/F_hsVuVRB4H" method="POST" enctype="multipart/form-data" target="_blank">
+          <div class="fourm">
+              <input type="text" name="Name" placeholder="Name" required>
+              <input type="email" name="Email" placeholder="Email" required>
+              <input type="tel" name="PhoneNumber" placeholder="Phone Number" pattern="[0-9]{7,20}" required>
+              <textarea class="textarea" name="Message" rows="8" cols="80" placeholder="Your messages are always appreciated!" required></textarea>
+              <button class="glow-on-hover-li" type="submit">Send Email</button>
+          </div>
+        </form> -->
+        <!-- Netlify Fourm -->
+          <form class="talk-field-input" name="contact" netlify>
           <div class="fourm">
               <input type="text" name="Name" placeholder="Name" required>
               <input type="email" name="Email" placeholder="Email" required>

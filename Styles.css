@@ -1848,6 +1848,7 @@ h5 {
   .glow-on-hover-li {
     font-size: 16px;
     font-weight: bold;
+    width: auto;
   }
 }
 @media only screen and (max-width: 720px) {
@@ -2117,7 +2118,7 @@ h5 {
       1fr
     ); /* Adjust to single column layout for smaller screens */
     /* margin: 16px; */
-    height: 240vh;
+    height: 220vh;
   }
   .card-projects video {
     width: 100%;
@@ -2197,7 +2198,7 @@ h5 {
 @media only screen and (max-width: 430px) {
   .text-section {
     gap: 20px; /* Reduce gap between flex items for smaller screens */
-    margin-bottom: 480px;
+    margin-bottom: 420px;
   }
   .image-container {
     gap: 20px; /* Reduce gap between flex items for smaller screens */
