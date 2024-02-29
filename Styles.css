@@ -2052,7 +2052,7 @@ h5 {
       1fr
     ); /* Adjust to single column layout for smaller screens */
     margin: 40px;
-    height: 80vh;
+    height: 90vh;
   }
   .tabbed {
     width: 100%; /* Adjust width to fit the container */
@@ -2107,7 +2107,7 @@ h5 {
       1fr
     ); /* Adjust to single column layout for smaller screens */
     margin: 16px;
-    height: 140vh;
+    height: 150vh;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -2135,7 +2135,7 @@ h5 {
       1fr
     ); /* Adjust to single column layout for smaller screens */
     /* margin: 16px; */
-    height: 160vh;
+    height: 170vh;
   }
 }
 @media only screen and (max-width: 1300px) {

@@ -166,7 +166,8 @@ document
   .addEventListener("click", function () {
     // Replace 'path/to/your/cv.pdf' with the actual path to your CV file
     var cvPath =
-      "https://drive.google.com/uc?export=download&id=1TUVyxpoS42p-vYpe8C67VwMMZwqCNRym";
+      "https://drive.google.com/uc?export=download&id=13D13OoPM2FtzCdtYr-VMATsGhq-9nOwr";
+
     // var cvPath = 'Nour_Eldin_Resume.pdf';
 
     // Create a link element
