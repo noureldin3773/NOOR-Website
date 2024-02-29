@@ -1848,7 +1848,7 @@ h5 {
   .glow-on-hover-li {
     font-size: 16px;
     font-weight: bold;
-    width: auto;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 720px) {
