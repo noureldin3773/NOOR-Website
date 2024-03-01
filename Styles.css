@@ -2516,7 +2516,7 @@ h5 {
     margin-right: 5%;
   }
   .flip-card {
-    height: 60vh;
+    height: 70vh;
   }
   .about-grid {
     grid-template-columns: repeat(
@@ -2524,7 +2524,7 @@ h5 {
       1fr
     ); /* Adjust to single column layout for smaller screens */
     /* margin: 16px; */
-    height: 150vh;
+    height: 220vh;
   }
   .card-projects video {
     width: 100%;
@@ -2536,7 +2536,7 @@ h5 {
   }
   .text-section {
     gap: 20px; /* Reduce gap between flex items for smaller screens */
-    margin-bottom: 240px;
+    margin-bottom: 300px;
   }
   .image-container {
     gap: 20px; /* Reduce gap between flex items for smaller screens */
