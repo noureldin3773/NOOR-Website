@@ -192,7 +192,6 @@ function navigateToHomePage() {
 function redirectToHexaDev() {
   window.location.href = "HexaDev.html";
 }
-
 function redirectToMMC() {
   window.location.href = "MMC.html";
 }

@@ -58,7 +58,7 @@ ul {
 }
 .floating-navbar {
   position: fixed;
-  top: 72px;
+  top: 5%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -1652,12 +1652,12 @@ h5 {
   /* Default styles for larger screens */
   .floating-navbar {
     position: fixed;
-    top: 72px;
+    top: 3%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     width: 90%;
-    height: 64px;
+    height: 5%;
     padding: 8px;
     justify-content: right;
     align-items: center;
@@ -1666,6 +1666,7 @@ h5 {
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     z-index: 1001;
+    /* display: none; */
   }
   .menu-icon {
     display: block;
