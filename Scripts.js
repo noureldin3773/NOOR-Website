@@ -169,25 +169,14 @@ document
 
     var link = document.createElement("a");
     link.href = cvPath;
-
-    // This line tells the browser to download instead of navigating
-    link.download = "Nour_Eldin_Resume.pdf";
+    link.download = "Nour Eldin - Product Designer Resume.pdf"; // Suggests the filename
+    link.style.display = "none"; // Just in case
 
     document.body.appendChild(link); // Needed for Firefox
-    link.click();
+    link.click(); // Trigger download
     document.body.removeChild(link); // Clean up
   });
 
-
-    // link.target = '_blank';
-
-    // Append the link to the document and trigger a click
-    document.body.appendChild(link);
-    link.click();
-
-    // Remove the link from the document
-    document.body.removeChild(link);
-  });
 function navigateToHomePage() {
   window.location.href = "home.html#Talk"; // Assuming 'home.html' is your home page and 'contact' is the ID of the contact section
 }
