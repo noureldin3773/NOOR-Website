@@ -164,18 +164,20 @@ ratingElements.forEach((ratingElement) => {
 document
   .getElementById("downloadButton")
   .addEventListener("click", function () {
-    // Replace 'path/to/your/cv.pdf' with the actual path to your CV file
     var cvPath =
-      "https://drive.google.com/file/d/1tyhewSC06q-GXOnBE0ilNEorcdpPQWkR/view?usp=sharing";
+      "https://drive.google.com/uc?export=download&id=1tyhewSC06q-GXOnBE0ilNEorcdpPQWkR";
 
-    // var cvPath = 'Nour_Eldin_Resume.pdf';
-
-    // Create a link element
     var link = document.createElement("a");
     link.href = cvPath;
 
-    // Specify the filename for the download
+    // This line tells the browser to download instead of navigating
     link.download = "Nour_Eldin_Resume.pdf";
+
+    document.body.appendChild(link); // Needed for Firefox
+    link.click();
+    document.body.removeChild(link); // Clean up
+  });
+
 
     // link.target = '_blank';
 
