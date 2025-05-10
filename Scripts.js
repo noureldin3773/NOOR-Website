@@ -55,6 +55,9 @@ document.querySelectorAll(".navbar-list a, button").forEach((item) => {
     document.querySelector(".navbar-list").classList.remove("active");
   });
 });
+
+
+
 function toggleScrollButton() {
   const firstSection = document.getElementById("section1"); // Change 'section1' to the ID of your first section
   const scrollButton = document.getElementById("scrollButton");
